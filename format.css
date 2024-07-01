@@ -1,0 +1,140 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 32, 62);
+}
+/* for navigation bar  */
+.nav {
+    background-color: rgb(32, 32, 62);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav i {
+    color: rgb(195, 242, 181);
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.nav p {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 0.8rem;
+}
+
+.logo-text {
+    margin-left: 10px;
+}
+
+.nav ul {
+    text-align: center;
+    color: aliceblue;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 80px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.search {
+    background-color: rgb(86, 86, 142);
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 50%;
+}
+/* for main section  */
+.main{
+    display: flex;
+}
+.section1{
+    width: 60%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.about-artist{
+    height: 350px;
+    background-color: rgba(52, 63, 190, 0.5);
+    opacity: 0.7;
+    display: flex;
+}
+.about-artist img{
+    height: 350px;
+    width: 300px;
+    border-bottom-left-radius:100px ;
+    border-bottom-right-radius:100px ;
+    padding-bottom: 30px;
+}
+.about{
+    width: 80%;
+    height: 350px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: -25px;
+    display: flex;
+}
+.name p,h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+.description{
+    height: 160px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-family: 'monospace';
+}
+.button{
+    color: aliceblue;
+    display: flex;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.button button{
+    width: 25%;
+    font-size: 30px;
+    background-color: purple;
+    color: aliceblue;
+}
+.button p{
+    width: 25%;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.song-name{
+    height: 80px;
+    background-color: rgb(60, 59, 57);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.section2{
+    width: 40%;
+}
+/* for aside section  */
+.similar{
+    height: 40%;
+    background-color: rgb(12, 12, 12);
+}
+.recently{
+    background-color: aliceblue;
+    height: 60%;
+}
